@@ -157,7 +157,7 @@
 								<div class="card-main">
 									<div class="card-inner">
 											<h2 class="content-sub-heading">致谢</h2>
-											<p>本站使用<a href="https://91vps.club/">91vps</a>教程搭建</p>
+											<p>本站使用<a href="https://liang.club/">liang</a>教程搭建</p>
 									</div>
 								</div>
 							</div>

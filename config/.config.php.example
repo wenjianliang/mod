@@ -5,8 +5,8 @@
 // !!! 修改此key为随机字符串确保网站安全 !!!
 $System_Config['key'] = 'randomkey';
 $System_Config['debug'] =  'false';  //  正式环境请确保为false
-$System_Config['appName'] = '91vps';             //站点名称
-$System_Config['baseUrl'] = 'https://91vps.win';            // 站点地址
+$System_Config['appName'] = 'stephen';             //站点名称
+$System_Config['baseUrl'] = 'https://stephen.liang';            // 站点地址
 $System_Config['timeZone'] = 'PRC';        // PRC 天朝时间  UTC 格林时间
 $System_Config['pwdMethod'] = 'sha256';       // 密码加密   可选 md5,sha256
 $System_Config['salt'] = '';               // 密码加密用，从旧版升级请留空
@@ -23,7 +23,7 @@ $System_Config['muKey'] = 'mupass';
 // 邮件
 $System_Config['mailDriver'] = 'smtp';   // mailgun or smtp or sendgrid
 
-#用户等级过期时间，在注册时设置。（小时）  此部分功能解释：https://91vps.win/2017/09/12/little_point/
+#用户等级过期时间，在注册时设置。（小时）  此部分功能解释：https://liang.win/2017/09/12/little_point/
 $System_Config['user_class_expire_default']='2';
 
 #用户注册等级，在注册时设置。
