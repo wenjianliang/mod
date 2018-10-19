@@ -19,7 +19,7 @@
 	<div class="content-header ui-content-header">
 		<div class="container">
 			<h1 class="content-heading">请选择一种方式进行充值</h1>
-			<p>充值后会在<a href="/user/donate">【捐赠公示】</a>中公示，如不想公示可以在<a href="/user/donate">【捐赠公示】</a>中修改设置为匿名。</p>
+			
 			<h4 class="content-heading">当前余额：{$user->money} 元</h4>
 		</div>
 	</div>
@@ -64,20 +64,18 @@
 					</div>
 				</div>
 
-                {if $pmw!=''}
-					<div class="col-lg-8 col-md-4">
-						<div class="card margin-bottom-no">
-							<div class="card-main">
-								<div class="card-inner">
-									<div class="card-inner">
-                                        {$pmw}
-									</div>
+               <div class="col-lg-8 col-md-4">
+               						<div class="card margin-bottom-no">
+               							<div class="card-main">
+               								<div class="card-inner">
+               									<div class="card-inner">
+                                                <img width="100%" src="https://raw.githubusercontent.com/wenjianliang/mod/master/aa.png" alt="谢谢老板" class="img-thumbnail">
+               									</div>
 
-								</div>
-							</div>
-						</div>
-					</div>
-                {/if}
+               								</div>
+               							</div>
+               						</div>
+               					</div>
 
 				<div class="col-lg-12 col-md-12">
 					<div class="card margin-bottom-no">
